@@ -30,4 +30,8 @@ print(a)
 #plt.plot(x,y)
 #plt.show()
 
+#bins=range(0,256)
+#plt.hist(a,edgecolor="black",bins=bins)
+#plt.show()
+
 
