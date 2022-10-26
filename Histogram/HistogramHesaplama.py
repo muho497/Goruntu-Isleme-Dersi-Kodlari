@@ -29,4 +29,9 @@ print(a)
 #plt.plot(x,y)
 #plt.show()
 
+#x =range(0,256)
+#y =a
+#plt.plot(x,y)
+#plt.show()
+
 
