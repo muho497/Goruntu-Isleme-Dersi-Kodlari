@@ -24,10 +24,6 @@ print(a)
 #cv2.imshow('hist',hist)
 #cv2.waitKey(0)
 
-#x =
-#y =a
-#plt.plot(x,y)
-#plt.show()
 
 #x =range(0,256)
 #y =a
