@@ -19,6 +19,12 @@ def OpenCV_Access_RGBValue(inMat):
     h = inMat.shape[0]
     w = inMat.shape[1]
 
+    #eb = 0
+    #for y in range(0, h):
+    #    for x in range(0, w):
+    #        if any(inMat[x, y]>eb):
+    #            eb=inMat[x,y]
+
 
 
     for y in range(0, h):
@@ -28,9 +34,15 @@ def OpenCV_Access_RGBValue(inMat):
             g = inMat[y, x, 1]
             r = inMat[y, x, 2]
 
+            #b = eb - b
+            #g = eb - g
+            #r = eb - r
+
             b = 256 - b
             g = 256 - g
             r = 256 - r
+
+
 
             inMat[y, x, 0] = b
             inMat[y, x, 1] = g
